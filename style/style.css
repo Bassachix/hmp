@@ -223,7 +223,7 @@ nav ul li a:hover {
 
 /* Hero Section */
 #hero {
-    height: 720px;
+    height: 100vh;
     padding: 0 20px 0 100px;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -445,7 +445,7 @@ nav ul li a:hover {
 
 .contact-item-icon {
     background: var(--thirdBackgroundColor);
-    /* padding: 0.8rem 1rem; */
+    padding: 0.8rem 1rem;
     width: 53px;
     height: 53px;
     border-radius: 9px;

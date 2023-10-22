@@ -32,29 +32,6 @@
 }
 
 @media screen and (max-width: 825px) {
-
-    /* Burger */
-    .burger {
-        background-color: rgb(31, 31, 31);
-        border-radius: 50%;
-        display: block;
-        position: sticky;
-        cursor: pointer;
-        /* margin-top: -8px; */
-    }
-
-    .toggle-burger .line-1 {
-        transform: rotate(-45deg) translate(-5px, 7px);
-    }
-
-    .toggle-burger .line-2 {
-        opacity: 0;
-    }
-
-    .toggle-burger .line-3 {
-        transform: rotate(45deg) translate(-5px, -7px);
-    }
-
     /* Navigation */
     nav {
         position: fixed;
@@ -138,20 +115,6 @@
     .skills-right {
         width: 100%;
     }
-
-    /* Contact Section */
-    /* .contact-form input {
-        width: 91%;
-    }
-
-    .contact-form textarea {
-        width: 91%;
-    }
-
-    .btn-submit {
-        width: 91%;
-    } */
-
 
     /* Footer */
     footer {

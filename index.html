@@ -1,6 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 
+<!-- Buat yang membaca komentar ini harap dimaklumi bahwa 
+    ini dibuat dengan seadanya, pada beberapa device masih 
+    ada yang belum responsive(Rapi) karena lelah bin malas alias 
+    tidak ada waktu. Tiap minggu kena serang tugas jadinya kena mental.
+    itu pun sudah copas sana sini supaya pengerjaan nya jadi cepat. 
+    dan untuk para sesepuh, mohon dimaafkan apabila code nya rada berantakan,
+    Peace :v -->
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -214,13 +222,14 @@
             <div class="contact-left">
                 <form action="https://formspree.io/f/mwkdypow" method="POST" class="contact-form">
                     <div>
-                        <input type="text" placeholder="Name" name="name" />
+                        <input type="text" placeholder="Name" name="name" required />
                     </div>
                     <div>
-                        <input type="email" placeholder="Email" name="email" />
+                        <input type="email" placeholder="Email" name="email" required />
                     </div>
                     <div>
-                        <textarea name="message" id="message" cols="30" rows="10" placeholder="Message"></textarea>
+                        <textarea name="message" id="message" cols="30" rows="10" placeholder="Message"
+                            required></textarea>
                     </div>
                     <div>
                         <button class="btn-submit">Send Message</button>
