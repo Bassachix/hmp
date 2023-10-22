@@ -215,13 +215,13 @@ nav ul li a:hover {
     color: var(--primaryIconColor) !important;
 }
 
-.hero-right img {
-    width: 60%;
-}
-
 .hero-right {
     display: flex;
     justify-content: center;
+}
+
+.hero-right img {
+    width: 60%;
 }
 
 /* Services Section */

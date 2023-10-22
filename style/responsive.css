@@ -103,9 +103,11 @@
         padding-right: 100px;
         grid-template-columns: 1fr;
         height: fit-content;
+        gap: 5rem;
     }
 
     .hero-right {
+        margin-top: 55px;
         border-radius: 25%;
         order: -1;
     }
@@ -134,17 +136,17 @@
     }
 
     /* Contact Section */
-    .contact-form input {
-        width: 91%;
+    /* .contact-form input {
+        width: 100%;
     }
 
     .contact-form textarea {
-        width: 91%;
+        width: 100%;
     }
 
     .btn-submit {
-        width: 91%;
-    }
+        width: 100%;
+    } */
 
 
     /* Footer */
