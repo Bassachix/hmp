@@ -160,6 +160,16 @@
 }
 
 /* Mobile Size */
+@media screen and (max-width: 768px) {
+    .toggle_btn {
+        display: block;
+    }
+
+    .dropdown_menu {
+        display: block;
+    }
+}
+
 @media screen and (max-width: 640px) {
     /* Titles */
     .section-title {
@@ -168,6 +178,13 @@
     
     .pre-title {
         font-size: 0.7rem;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .dropdown_menu {
+        right: 2rem;
+        display: unset;
     }
 }
 

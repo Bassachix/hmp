@@ -1,16 +1,16 @@
 // Toggle & Responsive Navigation
-const navSlide = () => {
-    const burger = document.querySelector(".burger");
-    const navLists = document.querySelector("nav");
+const toggleBtn = document.querySelector(".toggle_btn");
+const toggleBtnIcon = document.querySelector(".toggle_btn i");
+const dropDownMenu = document.querySelector(".dropdown_menu");
 
-    burger.addEventListener("click", () => {
-        // Toggle nav list and burger class
-        navLists.classList.toggle("nav-active");
-        burger.classList.toggle("toggle-burger");
-    });
-};
+toggleBtn.onclick = function () {
+    dropDownMenu.classList.toggle('open');
+    const isOpen = dropDownMenu.classList.contains('open');
 
-navSlide();
+    toggleBtnIcon.classList = isOpen
+        ? 'fa-solid fa-xmark'
+        : 'fa-solid fa-bars'
+}
 
 // Clear form before unload
 window.onbeforeunload = () => {
