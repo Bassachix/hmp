@@ -198,10 +198,10 @@
 
 @media screen and (max-width: 320px) {
     .skills-right {
-        width: 85%;
+        width: 90%;
     }
     
     .contact-left {
-        width: 80%;
+        width: 85%;
     }
 }
