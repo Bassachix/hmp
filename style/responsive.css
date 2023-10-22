@@ -171,16 +171,6 @@
     }
 }
 
-@media screen and (max-width: 420px) {
-    .skills-right {
-        width: 90%;
-    }
-    
-    .contact-left {
-        width: 90%;
-    }
-}
-
 @media screen and (max-width: 360px) {
     .skills-right {
         width: 90%;
