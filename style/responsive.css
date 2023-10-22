@@ -171,6 +171,16 @@
     }
 }
 
+@media screen and (max-width: 420px) {
+    .skills-right {
+        width: 90%;
+    }
+    
+    .contact-left {
+        width: 90%;
+    }
+}
+
 @media screen and (max-width: 360px) {
     .skills-right {
         width: 90%;
@@ -183,5 +193,15 @@
     .grid-p img {
         width: 297px;
         height: auto;
+    }
+}
+
+@media screen and (max-width: 340px) {
+    .skills-right {
+        width: 85%;
+    }
+    
+    .contact-left {
+        width: 80%;
     }
 }
