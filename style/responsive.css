@@ -107,7 +107,7 @@
     }
 
     .hero-right {
-        margin-top: 55px;
+        margin-top: 60px;
         border-radius: 25%;
         order: -1;
     }
@@ -135,17 +135,21 @@
         gap: 1rem;
     }
 
+    .skills-right {
+        width: 100%;
+    }
+
     /* Contact Section */
     /* .contact-form input {
-        width: 100%;
+        width: 91%;
     }
 
     .contact-form textarea {
-        width: 100%;
+        width: 91%;
     }
 
     .btn-submit {
-        width: 100%;
+        width: 91%;
     } */
 
 
@@ -161,8 +165,23 @@
     .section-title {
         font-size: 1.3rem;
     }
-
+    
     .pre-title {
         font-size: 0.7rem;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .skills-right {
+        width: 90%;
+    }
+    
+    .contact-left {
+        width: 85%;
+    }
+
+    .grid-p img {
+        width: 297px;
+        height: auto;
     }
 }
